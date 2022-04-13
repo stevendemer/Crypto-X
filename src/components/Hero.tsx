@@ -9,7 +9,7 @@ const Hero = (props: IProps) => {
     <>
         <div className="relative">
             <div className="brightness-50">
-                <video src='public/video.mp4' autoPlay loop muted />
+                <video src='./video.mp4' autoPlay loop muted />
             </div>
             <div className="absolute top-0 right-0 left-0 text-center mt-60 brightness-80">
                 <div className="text-4xl text-white font-pop italic font-semibold">The definite source for crypto</div>
