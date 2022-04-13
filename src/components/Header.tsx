@@ -17,11 +17,11 @@ const Header:React.FC<IProps> = () => {
   }
 
   const sideMenu = () => (
-       <div className="fixed top-0 right-0 h-screen w-screen px-10 bg-lime-500 rounded-lg">
+       <div className="fixed top-0 right-0 h-screen w-screen px-10 bg-green-500 rounded-lg">
         <div onClick={handleClick} className="fixed top-0 right-0 px-2 py-6 -my-2 w-fit cursor-pointer text-black z-30 text-5xl transition-all duration-300 delay-100 hover:rotate-180">
          <MdOutlineClose />
         </div>
-       <div className="flex justify-around items-center flex-col font-bold space-y-20 py-20 ">
+       <div className="flex justify-around items-center flex-col font-bold space-y-20 py-20 text-3xl ">
           <Link to='/charts' className='transition-all delay-125 ease-in-out hover:scale-125 hover:underline underline-offset-8 decoration-2'>Charts</Link>
           <Link to='/assets' className=' transition delay-125 ease-in-out hover:underline hover:scale-125 underline-offset-8'>Assets</Link>
           <Link to='/exchanges' className='transition delay-125 ease-in-out hover:underline hover:scale-125 underline-offset-8'>Exchanges</Link>
