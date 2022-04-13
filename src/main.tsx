@@ -4,7 +4,6 @@ import './index.css'
 import App from './App'
 import {
   BrowserRouter as Router,
-  ROutes,
   Route
   
 } from 'react-router-dom';
