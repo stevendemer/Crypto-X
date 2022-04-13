@@ -42,7 +42,10 @@ const Header:React.FC<IProps> = () => {
        <Link to='/assets' className=' transition delay-75 ease-in-out hover:text-emerald-400 hover:scale-125'>Assets</Link>
        <Link to='/exchanges' className='transition delay-75 ease-in-out hover:text-emerald-400 hover:scale-125'>Exchanges</Link>
        <Link to="/login">
-        <div className="cursor-pointer bg-emerald-500 text-white text-2xl p-2 transition-all delay-125 rounded-lg hover:bg-white hover:text-emerald-500">Sign in</div>
+        <div className="cursor-pointer bg-emerald-500 text-white text-xl font-extrabold p-2 transition-all delay-125 rounded-lg hover:bg-black hover:text-emerald-500">Sign in</div>
+       </Link>
+       <Link to="/signup"> 
+          <div className="cursor-pointer bg-emerald-500 font-extrabold text-white text-xl p-2 transition-all delay-125 rounded-lg hover:bg-black hover:text-emerald-500">Sign up</div>
        </Link>
      </div>
      <div className="md:hidden block cursor-pointer px-20  text-white text-4xl opacity-75" onClick={handleClick}>

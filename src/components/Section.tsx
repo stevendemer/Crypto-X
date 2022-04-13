@@ -10,7 +10,7 @@ interface IProps {
 const Section = (props: IProps) => {
 
     const classStr = classnames(
-        "relative font-pop top-0 right-0 left-0 text-black w-full h-[400px] border-slate-800 border-8",
+        "relative font-pop top-0 right-0 left-0  text-black w-full h-[600px] border-slate-800 border-8",
         props.bg
     );
 

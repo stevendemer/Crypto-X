@@ -7,8 +7,8 @@ interface IProps {
 const Hero = (props: IProps) => {
   return (
     <>
-        <div className="relative">
-            <div className="brightness-50">
+        <div className="relative top-0 bg-cover">
+            <div className="h-auto w-full brightness-50">
                 <video src='video.mp4' autoPlay loop muted />
             </div>
             <div className="absolute top-0 right-0 left-0 text-center mt-60 brightness-80">
